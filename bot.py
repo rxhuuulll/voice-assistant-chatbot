@@ -97,10 +97,6 @@ def run_alexa():
             print('http://weavesilk.com/')
             print('https://www.rainymood.com/')
             print('http://incredibox.com/')
-        elif 'essay' in command or 'about' in command or 'brief' in command:
-            response = get_openai_response(command)
-            print(response)
-            talk(response)
         else:
             response = get_openai_response(command)
             print(response)
