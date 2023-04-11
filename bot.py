@@ -7,7 +7,7 @@ import random
 import geocoder
 
 # Set up OpenAI API credentials
-openai.api_key = "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"
+openai.api_key = "YOUR_OPENAI_API"
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
